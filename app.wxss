@@ -1,0 +1,6 @@
+/* 引入字体图标 */
+@import './styles/iconFont.wxss';
+
+Page{
+  --themeColor:#0094ff;
+}

@@ -1,0 +1,44 @@
+view {
+  /* 使用主题颜色 */
+  color: var(--themeColor);
+}
+.search_input {
+  background-color: var(--themeColor);
+  text-align: center;
+  height: 80rpx;
+  padding: 5rpx;
+}
+.search_input navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 5px;
+}
+.index_cate {
+  display: flex;
+}
+.index_cate navigator {
+  padding-top: 5px;
+  flex: 1;
+}
+.index_cate navigator image {
+  width: 100%;
+}
+.index_floor .floor_group .floor_title image {
+  width: 100%;
+}
+.index_floor .floor_group .floor_list navagator {
+  float: left;
+  width: 33.33%;
+}
+.index_floor .floor_group .floor_list navagator image {
+  width: 100%;
+}
+.floor_list_navigator {
+  float: left;
+  width: 33.33%;
+}
+.floor_list_navigator image {
+  width: 100%;
+}
